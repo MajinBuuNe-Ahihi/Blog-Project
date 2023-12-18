@@ -1,0 +1,64 @@
+:root {
+    --normal: 1.4em;
+    --medium: 3em;
+    --large: 6.8em;
+    --primary: #ffffff;
+    --secondary: #004b86;
+    --text: #333333;
+    --text-second: #000000;
+    --border: #e3e3e3;
+    --border-second: #f5f5f5;
+    --blue: #3086c3;
+}
+
+@font-face {
+    font-family: myria1, sans-serif;
+    src: url("../assets/fonts/MYRIADPRO-BOLD.OTF");
+}
+
+@font-face {
+    font-family: myria2, sans-serif;
+    src: url("../assets/fonts/MYRIADPRO-BOLDCOND.OTF");
+}
+
+@font-face {
+    font-family: myria3, sans-serif;
+    src: url("../assets/fonts/MYRIADPRO-BOLDCONDIT.OTF");
+}
+
+@font-face {
+    font-family: myria4;
+    src: url("../assets/fonts/MYRIADPRO-BOLDIT.OTF");
+}
+
+@font-face {
+    font-family: myria5;
+    src: url("../assets/fonts/MyriadPro-Light.otf");
+}
+
+@font-face {
+    font-family: myria6;
+    src: url("../assets/fonts/MYRIADPRO-REGULAR.OTF");
+}
+
+@font-face {
+    font-family: myria7;
+    src: url("../assets/fonts/MYRIADPRO-SEMIBOLD.OTF");
+}
+
+@font-face {
+    font-family: myria8;
+    src: url("../assets/fonts/MYRIADPRO-SEMIBOLDIT.OTF");
+}
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1.4em;
+    font-family: myria6;
+}
